@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Amita;
+    src: url('../fonts/Amita-Regular.ttf');
+}
+
+body {
+    background: #142246;
+    color: white;
+    font-family: monospace;
+}
+
+.navbar-brand {
+    font-family: Amita;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin-left: 35%;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0);
+    font-size: 1.5em;
+    color: white;
+}
+
+.nav-item {
+    margin: 0 0 0 25%;
+    transition: border ease-in-out 1s;
+}
+
+.nav-item:not(.register):hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    border-color: black;
+}
+
+.register a{
+    background: #1393ff;
+    color: #182148 !important;
+}
+
+.IIITR_logo {
+    margin-top: 35px;
+    height: 25vh;
+}
+
+.prs-sm {
+    margin-top: 0;
+    font-size: 2.6em;
+}
+
+.iiitr-hfest {
+    font-family: Amita;
+    margin: 6% auto;
+}
+
+.iiitr-hfest h2{
+    font-size: 5.5em; 
+    margin: 0;
+    padding: 0;
+}
+
+.iiitr-hfest .iiitr {
+    font-size: 3.9em;
+}
+
+.iiitr-hfest .hfest-yr {
+    position: relative;
+    top: -20px;
+    right: -73%;
+    font-size: 2em;
+}
+
+.hfest-details {
+    margin: 5% auto;
+    font-size: 1.8em;
+}
+
+.hfest-details h2{
+    margin: 2% auto;
+    font-size: 1.8em;
+}
+
+.event-cnt {
+    margin-bottom: 5%;
+}
+
+.event-cnt .card{
+    background: rgba(255,255,255,0.1);
+}
+
+.event-head {
+    font-size: 1.4em;
+    /* color: #142246; */
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;    
+}
+
+.event-date {
+    font-size: 1.1rem;
+    color: #f305ae;
+}
+
+.event-date span {
+    border-left: 1.5px solid rgba(255,255,255,0.5);
+    padding-left: 15px;
+}
+
+.event-detail {
+    text-justify: ;
+    font-size: 1rem;
+}
+
+.repo-cnt {
+    margin: 3% auto;
+    font-size: 1.8em;
+}
+
+.repo-cnt .card {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 1.5rem;
+}
+
+.text-pink {
+    color: #f305ae;
+}
+
+
+footer {
+    background: rgba(255,255,255, 0.1);
+}
+
+@media only screen and (min-width:768px){
+    footer{
+            height: 10vh;   
+    }
+
+}
+
+.img-foot img {
+    height: 10vh;
+}
+
+.copy-foot{
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar-brand {
+        font-family: Amita;
+        font-size: 0.8em;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .IIITR_logo {
+        margin-top: 12px;
+        height: 18vh;
+    }
+
+    .logo-content {
+        padding: 0;
+    }
+
+    .iiitr_header {
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .prs-sm {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+    .iiitr-hfest {
+        display: none;
+    }
+
+    .hfest-details {
+        width: 90%;
+        margin: 7% auto;
+        font-size: 1.2em;
+    }
+
+    .hfest-details h2 {
+        margin: 3% auto;
+        font-size: 1.5em;
+    }
+
+    .event-cnt {
+        width: 90%;
+        margin: 5% auto;
+        font-size: 1em;
+    }
+
+    .repo-cnt {
+        width: 90%;
+        margin: 6% auto;
+        font-size: 1em;
+    }
+
+    .repo-cnt {
+        font-size: 1.4em;
+    }
+
+    .repo-cnt .card {
+        padding: 0;
+    }
+
+    .img-foot {
+        text-align: center;
+    }
+
+    .copy-foot{
+        text-align:center;
+    }
+}
