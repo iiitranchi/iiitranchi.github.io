@@ -75,7 +75,7 @@
 	left: 4rem;
 	letter-spacing: 10px;
 }
-@media only screen and (max-width: 1300px){
+@media only screen and  (max-width: 1100px){
 	#container{
 		justify-content: center;
 	}
@@ -94,12 +94,13 @@
 		width: 100vw;
 		bottom: 0rem;
 		left: unset;
-		top: 30%;
+		top: 50%;
 		letter-spacing: 0px;
 	}
 	.containLogo{
-		position: initial;
-		width: 100vw;
+		top:8vw;
+		position: absolute;
+		width: 40vw;
 		text-align: center;
 	}
 	.logo{
