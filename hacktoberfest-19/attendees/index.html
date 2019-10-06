@@ -11,6 +11,9 @@
 		<link rel="icon" href="/hacktoberfest-19/attendees/assets/img/favicon.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<TITLE>A simple list</TITLE>
+		
+		<!-- baffleJs -->
+		<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 	</head>
 	
 	<body>
@@ -171,6 +174,17 @@
 
 		</div>
 		<!--Step 2 - If you are already into web development, go to the "assets" folder and make it more advanced-->
+	
+		<!-- Baffle.js animation for text IIIT Ranchi-->
+		<script type="text/javascript">
+			const text = baffle(".baffle-animate");
+				text.set({
+					characters: '░█▓ ><█/▓ ██▒█▒ ▓▓> ▒█>▒> ░>█▓ /▒█ █░░/ ▒▓▒▒',
+					speed: 120
+				});
+				text.start();
+				text.reveal(8000);
+		</script>
 	</body>
 	
 	</HTML>
