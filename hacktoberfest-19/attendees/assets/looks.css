@@ -76,6 +76,16 @@
 	letter-spacing: 10px;
 }
 @media only screen and (max-width: 1300px){
+	nav{
+		width: 100vw;
+		text-align: center;
+		position: relative;
+	}
+	nav > a{
+		position: inherit !important;
+		top: unset !important;
+		left: unset !important;
+	}
 	#container{
 		justify-content: center;
 	}
