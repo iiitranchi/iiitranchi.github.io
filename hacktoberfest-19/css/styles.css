@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-nav {
-    margin-left: 35%;
+    margin-left: 15%;
 }
 
 .navbar {
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-item {
-    margin: 0 0 0 25%;
+    margin: 0 0 0 20%;
     transition: border ease-in-out 1s;
 }
 
@@ -103,16 +103,43 @@ body {
     background: rgba(255,255,255,0.1);
 }
 
-.event-head {
-    font-size: 1.4em;
-    /* color: #142246; */
-    font-weight: 500;
-    border-bottom: 1px solid white;
-    padding-bottom: 2px;    
+.speaker-card {
+    width: 25%;
+    margin: 5%;
 }
 
-.event-date {
-    font-size: 1.1rem;
+.speaker-image {
+    height: 30vh;
+    border-bottom: 2px solid gray;
+}
+
+.speaker-footer {
+    background: #142246;
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.icons i {
+    margin: 0 10%;
+    font-size: 1.5em;
+}
+
+.event-head, .speaker-head {
+    font-size: 2.6em;
+    color: #142246;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding-bottom: 0px;    
+}
+
+.event-date, .speaker-caption {
+    font-size: 0.9rem;
     color: #f305ae;
 }
 
@@ -139,6 +166,10 @@ body {
 
 .text-pink {
     color: #f305ae;
+}
+
+.text-blue {
+    color: #142246;
 }
 
 
@@ -249,5 +280,22 @@ footer {
 
     .copy-foot{
         text-align:center;
+    }
+
+    .speaker-card {
+        width: 80%;
+        margin: 5%;
+    }
+
+    .icons {
+        padding: 10px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .icons i {
+        color: white;
+        margin: 0 12%;
+        font-size: 1.5em;
     }
 }
