@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <meta name="theme-color" content="#42597B" />
 
     <title>IIIT Ranchi | Hacktoberfest'19</title>
@@ -20,6 +20,7 @@
     <meta property="og:image"
         content="https://iiitranchi.github.io/hacktoberfest-19/image/IIITR_Hacktoberfest_19_tiny.jpg" />
     <!-- Favicon -->
+
     <link rel="icon" href="http://iiitranchi.ac.in/img/ic/iiitr/iiitr-logo-favicon.png">
 
     <!-- bootstrap CSS File -->
@@ -52,7 +53,10 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/hacktoberfest-19/attendees">Attendees</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Speakers/index.html">Speakers</a>
@@ -94,7 +98,7 @@
         </div>
 
         <div class="col-lg-6 col-12 text-center px-0 mx-0 hfest-logo-cnt">
-            <img src="image/Hactoberfest_logo.png" alt="Hacktoberfest logo" class="img-fluid d-inline-block hfest-logo">
+            <a href="https://hacktoberfest.digitalocean.com/"><img src="image/Hactoberfest_logo.png" alt="Hacktoberfest logo" class="img-fluid d-inline-block hfest-logo"></a>
 
         </div>
 
@@ -119,13 +123,13 @@
             participate today at <a href="https://hacktoberfest.digitalocean.com"> Hacktoberfest. </a></p>
     </div>
 
-    <div class="container event-cnt mb-2">
+    <div id="events" class="container event-cnt mb-2">
         <h2 class="mb-4">
             Events
         </h2>
         <div class="row">
-            <div class="col-12 col-md-4 px-0 px-lg-3">
-                <div class="card mb-3 mb-lg-0 ">
+            <div class="col-12 col-md-4 px-0 mb-3 px-lg-3">
+                <div class="card mb-3 mb-lg-0 h-100">
                     <div class="card-body ">
                         <div class="event-head">
                             Introduction to Open Source
@@ -145,8 +149,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 px-0 px-lg-3">
-                <div class="card mb-3 mb-lg-0 ">
+            <div class="col-12 col-md-4 px-0 mb-3 px-lg-3">
+                <div class="card mb-3 mb-lg-0  h-100">
                     <div class="card-body ">
                         <div class="event-head">
                             Git and Your 1st PR
@@ -166,8 +170,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 px-0 px-lg-3">
-                <div class="card mb-3 mb-lg-0 ">
+            <div class="col-12 col-md-4 px-0 mb-3 px-lg-3">
+                <div class="card mb-3 mb-lg-0  h-100">
                     <div class="card-body ">
                         <div class="event-head">
                             Hack your way for Swags
@@ -198,8 +202,8 @@
         </h2>
 
         <p>
-            These are some of the open source projects that you can contribute to. This projects are good for
-            first-timers. Also you can search for 'good first issues' in some other public repos. These issues would be
+            These are some of the open source projects that you can contribute to. These projects are good for
+            first-timers.  Also you can search for 'good first issues' in some other public repos. These issues would be
             easy to solve.
         </p>
 
@@ -285,7 +289,7 @@
                 <div class="card mb-lg-0">
                     <div class="card-body">
                         <div class="repo-head">
-                            <a href="https://github.com/Vishal19111999/HacktoberFest" class="text-pink">
+                            <a href="/hacktoberfest-19/attendees" class="text-pink">
                                 #hacktoberfest_IIITR
                             </a>
                         </div>
@@ -307,18 +311,18 @@
 
     </div>
 
-    
+
     <footer class="py-2">
         <div class="container h-100">
             <div class="row h-100" >
                 <div class="col-12 col-md-6 img-foot h-100 " >
-                    <img class="h-100" src="image/Hacktoberfest_19_Events_lockup_ko_300x100.png" alt="hacktoberfest-logo">
+                    <a href="https://hacktoberfest.digitalocean.com/" ><img class="h-100" src="image/Hacktoberfest_19_Events_lockup_ko_300x100.png" alt="hacktoberfest-logo"></a>
                 </div>
                 <div class="col-12 col-md-6 copy-foot">
                     <span style="font-family: serif">&copy;</span> House of Geeks, IIIT Ranchi
                 </div>
             </div>
-            
+
         </div>
     </footer>
 
