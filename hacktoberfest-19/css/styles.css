@@ -131,11 +131,11 @@ body {
 }
 
 .event-head, .speaker-head {
-    font-size: 2.6em;
-    color: #142246;
+    font-size: 2.5em;
+    color: #ffffff;
     font-weight: 500;
-    border-bottom: 1px solid black;
-    padding-bottom: 0px;    
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1px;    
 }
 
 .event-date, .speaker-caption {
