@@ -25,7 +25,7 @@ body {
 }
 
 .nav-item {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 10%;
     transition: border ease-in-out 1s;
 }
 
