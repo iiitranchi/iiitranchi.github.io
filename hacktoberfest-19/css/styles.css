@@ -132,7 +132,7 @@ body {
 
 .event-head, .speaker-head {
     font-size: 2.6em;
-    color: #142246;
+    color: #ecf0f1; /* Changed Colour for Better UI Looks */
     font-weight: 500;
     border-bottom: 1px solid black;
     padding-bottom: 0px;    
