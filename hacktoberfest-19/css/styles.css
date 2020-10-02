@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #142246;
+    background: #0c2a75;
     color: white;
     font-family: monospace;
 }
@@ -12,6 +12,11 @@ body {
 .navbar-brand {
     font-family: Amita;
     margin: 0;
+}
+
+a:hover {
+    font-size: 35px;
+    transition: 0.2s all ease-in;
 }
 
 .navbar-nav {
@@ -38,7 +43,7 @@ body {
     border-color: black;
 }
 
-.register a{
+.register a {
     background: #1393ff;
     color: #182148 !important;
 }
@@ -71,8 +76,8 @@ body {
     margin: 6% auto;
 }
 
-.iiitr-hfest h2{
-    font-size: 5.5em; 
+.iiitr-hfest h2 {
+    font-size: 5.5em;
     margin: 0;
     padding: 0;
 }
@@ -90,7 +95,7 @@ body {
     font-size: 1.8em;
 }
 
-.hfest-details h2{
+.hfest-details h2 {
     margin: 2% auto;
     font-size: 1.8em;
 }
@@ -99,8 +104,8 @@ body {
     margin-bottom: 5%;
 }
 
-.event-cnt .card{
-    background: rgba(255,255,255,0.1);
+.event-cnt .card {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .event-head {
@@ -108,7 +113,7 @@ body {
     /* color: #142246; */
     font-weight: 500;
     border-bottom: 1px solid white;
-    padding-bottom: 2px;    
+    padding-bottom: 2px;
 }
 
 .event-date {
@@ -117,7 +122,7 @@ body {
 }
 
 .event-date span {
-    border-left: 1.5px solid rgba(255,255,255,0.5);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
     padding-left: 15px;
 }
 
@@ -143,12 +148,12 @@ body {
 
 
 footer {
-    background: rgba(255,255,255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
-@media only screen and (min-width:768px){
-    footer{
-            height: 10vh;   
+@media only screen and (min-width:768px) {
+    footer {
+        height: 10vh;
     }
 
 }
@@ -157,10 +162,10 @@ footer {
     height: 10vh;
 }
 
-.copy-foot{
-  font-size: 1.1rem;
-  text-align: right;
-  margin-top: .5rem;
+.copy-foot {
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: .5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -168,7 +173,7 @@ footer {
         padding: 0;
         margin: 0;
     }
-    
+
     .navbar-brand {
         font-family: Amita;
         font-size: 0.8em;
@@ -247,7 +252,7 @@ footer {
         text-align: center;
     }
 
-    .copy-foot{
-        text-align:center;
+    .copy-foot {
+        text-align: center;
     }
 }
